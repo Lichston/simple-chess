@@ -2,14 +2,16 @@ package application;
 
 import java.util.Scanner;
 
+import boardgame.Posicao;
+
 public class Program{
 
-    public static void main(String args){
+    public static void main(String[] args){
 
-        Scanner in = new Scanner(System.in);
+        Posicao pos = new Posicao(3, 5);
 
-        System.out.println("Olá Mundo");
-
+        System.out.println(pos);
+        
     }
     
 }
